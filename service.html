@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Namaste Europe - Visa & Immigration</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- Theme Stylesheet -->
+        <link href="css/theme.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-primary px-5 d-none d-lg-block">
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex">
+                        <a href="#" class="text-muted me-4"><i class="fas fa-envelope text-secondary me-2"></i>munishvohra@pec.it</a>
+                        <a href="#" class="text-muted me-0"><i class="fas fa-phone-alt text-secondary me-2"></i>+91 8360220893</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-inline-flex align-items-center" style="height: 45px;">
+                        <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href="https://x.com/MunishVohra15?t=4TR0haF78YnMGFQTzQjSnQ&s=08" target="_blank"><i class="fab fa-twitter fw-normal text-secondary"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href="https://www.facebook.com/share/1G4xz5vvBd/" target="_blank"><i class="fab fa-facebook-f fw-normal text-secondary"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href="https://wa.me/918360220893" target="_blank"><i class="fab fa-whatsapp fw-normal text-secondary"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href="https://www.instagram.com/NAMASTE_EUROPE143/" target="_blank"><i class="fab fa-instagram fw-normal text-secondary"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-square rounded-circle" href="https://www.youtube.com/@namasteeruope" target="_blank"><i class="fab fa-youtube fw-normal text-secondary"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid nav-bar p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="display-5 text-secondary m-0"><img src="img/brand-logo.jpeg" class="img-fluid" alt="">Namaste Europe</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link active">Service</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-secondary mb-0" id="exampleModalLabel">Search by keyword</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-2" style="max-width: 900px;">
+                <h3 class="text-white display-3 mb-0 wow fadeInDown" data-wow-delay="0.1s">Our Services</h1>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Services Start -->
+    <div class="container-fluid service overflow-hidden pt-5">
+        <div class="container py-5">
+            <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="sub-style">
+                    <h5 class="sub-title text-primary px-3">Visa Categories</h5>
+                </div>
+                <h1 class="display-5 mb-4">Enabling Your Immigration Successfully</h1>
+                <p class="mb-0">Enabling your immigration journey successfully with expert guidance, personalized
+                    services, and efficient solutions for all visa types.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="service-inner">
+                            <div class="service-img">
+                                <img src="img/service-1.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            </div>
+                            <div class="service-title">
+                                <div class="service-title-name">
+                                    <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                        <a href="#" class="h4 text-white mb-0">Job Visa</a>
+                                    </div>
+                                    <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#">Explore
+                                        More</a>
+                                </div>
+                                <div class="service-content pb-4">
+                                    <a href="#">
+                                        <h4 class="text-white mb-4 py-3">Job Visa</h4>
+                                    </a>
+                                    <div class="px-4">
+                                        <p class="mb-4">We offer comprehensive job visa assistance, helping
+                                            professionals secure work opportunities abroad.</p>
+                                        <a class="btn btn-primary border-secondary rounded-pill py-3 px-5"
+                                            href="#">Explore More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="service-inner">
+                            <div class="service-img">
+                                <img src="img/service-1.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            </div>
+                            <div class="service-title">
+                                <div class="service-title-name">
+                                    <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                        <a href="#" class="h4 text-white mb-0">Students Visa</a>
+                                    </div>
+                                    <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#">Explore
+                                        More</a>
+                                </div>
+                                <div class="service-content pb-4">
+                                    <a href="#">
+                                        <h4 class="text-white mb-4 py-3">Students Visa</h4>
+                                    </a>
+                                    <div class="px-4">
+                                        <p class="mb-4">We provide expert assistance for student visa applications,
+                                            guiding you through every step to secure your study opportunity abroad. </p>
+                                        <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5"
+                                            href="#">Explore More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class="service-inner">
+                            <div class="service-img">
+                                <img src="img/service-3.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            </div>
+                            <div class="service-title">
+                                <div class="service-title-name">
+                                    <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                        <a href="#" class="h4 text-white mb-0">Tourist Visa</a>
+                                    </div>
+                                    <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#">Explore
+                                        More</a>
+                                </div>
+                                <div class="service-content pb-4">
+                                    <a href="#">
+                                        <h4 class="text-white mb-4 py-3">Tourist Visa</h4>
+                                    </a>
+                                    <div class="px-4">
+                                        <p class="mb-4">We provide expert assistance with tourist visa applications,
+                                            ensuring a smooth process for your travel plans.</p>
+                                        <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5"
+                                            href="#">Explore More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+
+<!-- Counter Facts Start -->
+<div class="container-fluid counter-facts py-5">
+    <div class="container py-5">
+        <div class="row g-4 justify-content-center">
+            <div class="col-12 col-sm-6 col-md-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="counter">
+                    <div class="counter-icon">
+                        <i class="fas fa-passport"></i>
+                    </div>
+                    <div class="counter-content">
+                        <h3>Visa Categories</h3>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span class="counter-value" data-toggle="counter-up">3</span>
+                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="counter">
+                    <div class="counter-icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <div class="counter-content">
+                        <h3>Visa Process</h3>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span class="counter-value" data-toggle="counter-up">2.6</span>
+                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">K</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-xl-4 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="counter">
+                    <div class="counter-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="counter-content">
+                        <h3>Success Rates</h3>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span class="counter-value" data-toggle="counter-up">95</span>
+                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">%</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Counter Facts End -->
+
+       
+    <!-- Countries We Offer Start -->
+    <div class="container-fluid country overflow-hidden py-5">
+        <div class="container">
+            <div class="section-title text-center wow fadeInUp" data-wow-delay="0.1s" style="margin-bottom: 70px;">
+                <div class="sub-style">
+                    <h5 class="sub-title text-primary px-3">COUNTRIES WE OFFER</h5>
+                </div>
+                <h1 class="display-5 mb-4">Immigration & visa services following Countries</h1>
+                <p class="mb-0">Our expert team provides comprehensive assistance for visas, residency, work permits,
+                    and citizenship in these countries.</p>
+            </div>
+            <div class="row g-4 text-center">
+                <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="country-item">
+                        <div class="rounded overflow-hidden" style="height: 250px;">
+                            <img src="img/australiacountry.jpg" class="img-fluid w-100 h-100 rounded" style="object-fit: cover;" alt="Image">
+                        </div>
+                        <div class="country-flag">
+                            <img src="img/australia.jpg" class="img-fluid rounded-circle" style="width: 80px; height: 80px; object-fit: cover;" alt="Image">
+                        </div>
+                        <div class="country-name">
+                            <a href="#" class="text-white fs-4">Australia</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="country-item">
+                        <div class="rounded overflow-hidden" style="height: 250px;">
+                            <img src="img/country-2.jpg" class="img-fluid w-100 h-100 rounded" style="object-fit: cover;" alt="Image">
+                        </div>
+                        <div class="country-flag">
+                            <img src="img/india.jpg" class="img-fluid rounded-circle" style="width: 80px; height: 80px; object-fit: cover;" alt="Image">
+                        </div>
+                        <div class="country-name">
+                            <a href="#" class="text-white fs-4">India</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="country-item">
+                        <div class="rounded overflow-hidden" style="height: 250px;">
+                            <img src="img/country-3.jpg" class="img-fluid w-100 h-100 rounded" style="object-fit: cover;" alt="Image">
+                        </div>
+                        <div class="country-flag">
+                            <img src="img/canada.jpg" class="img-fluid rounded-circle" style="width: 80px; height: 80px; object-fit: cover;" alt="Image">
+                        </div>
+                        <div class="country-name">
+                            <a href="#" class="text-white fs-4">Canada</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="country-item">
+                        <div class="rounded overflow-hidden" style="height: 250px;">
+                            <img src="img/slovakiacountry.jpg" class="img-fluid w-100 h-100 rounded" style="object-fit: cover;" alt="Image">
+                        </div>
+                        <div class="country-flag">
+                            <img src="img/slovakia.jpg" class="img-fluid rounded-circle" style="width: 80px; height: 80px; object-fit: cover;" alt="Image">
+                        </div>
+                        <div class="country-name">
+                            <a href="#" class="text-white fs-4">Slovakia</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Countries We Offer End -->
+
+       <!-- Training Start -->
+    <div class="container-fluid training overflow-hidden bg-light py-5">
+        <div class="container py-5">
+            <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="sub-style">
+                    <h5 class="sub-title text-primary px-3">CHECK OUT EXPERIENCE</h5>
+                </div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-12 col-sm-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="training-item h-100">
+                        <div class="training-inner">
+                            <img src="img/training-1.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            <div class="training-title-name">
+                                <a href="#" class="h4 text-white mb-0">SPAIN</a>
+                                <a href="#" class="h4 text-white mb-0">VISA</a>
+                            </div>
+                        </div>
+                        <div class="training-content bg-secondary rounded-bottom p-4">
+                            <a href="#">
+                                <h4 class="text-white">SPAIN VISA</h4>
+                            </a>
+                            <p class="text-white-50">
+                                Get expert guidance for Spain visa applications with our comprehensive services. </p>
+                            <a class="btn btn-secondary rounded-pill text-white p-0" href="https://www.youtube.com/watch?v=XMqke-cCA8Y" target="_blank">YouTube <i
+                                    class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="training-item h-100">
+                        <div class="training-inner">
+                            <img src="img/training-2.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            <div class="training-title-name">
+                                <a href="#" class="h4 text-white mb-0">AUSTRALIA</a>
+                                <a href="#" class="h4 text-white mb-0">VISA</a>
+                            </div>
+                        </div>
+                        <div class="training-content bg-secondary rounded-bottom p-4">
+                            <a href="#">
+                                <h4 class="text-white">AUSTRALIA VISA</h4>
+                            </a>
+                            <p class="text-white-50">Achieve your Australia visa goals with our expert assistance.</p>
+                            <a class="btn btn-secondary rounded-pill text-white p-0" href="https://www.youtube.com/watch?v=iWERW2Pqygc" target="_blank">YouTube <i
+                                    class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="training-item h-100">
+                        <div class="training-inner">
+                            <img src="img/training-3.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            <div class="training-title-name">
+                                <a href="#" class="h4 text-white mb-0">SLOVAKIA</a>
+                                <a href="#" class="h4 text-white mb-0">VISA</a>
+                            </div>
+                        </div>
+                        <div class="training-content bg-secondary rounded-bottom p-4">
+                            <a href="#">
+                                <h4 class="text-white">SLOVAKIA VISA</h4>
+                            </a>
+                            <p class="text-white-50">Unlock Slovakia visa opportunities with our professional guidance. </p>
+                            <a class="btn btn-secondary rounded-pill text-white p-0" href="https://www.youtube.com/watch?v=aPGo6QSpzAY" target="_blank">YouTube <i
+                                    class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="training-item h-100">
+                        <div class="training-inner">
+                            <img src="img/training-4.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            <div class="training-title-name">
+                                <a href="#" class="h4 text-white mb-0">SLOVENIA</a>
+                                <a href="#" class="h4 text-white mb-0">VISA</a>
+                            </div>
+                        </div>
+                        <div class="training-content bg-secondary rounded-bottom p-4">
+                            <a href="#">
+                                <h4 class="text-white">SLOVENIA VISA</h4>
+                            </a>
+                            <p class="text-white-50">Secure your Slovenia visa with our dedicated support services.</p>
+                            <a class="btn btn-secondary rounded-pill text-white p-0" href="https://www.youtube.com/watch?v=GKgpkDYQLDQ" target="_blank">YouTube <i
+                                    class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center mt-5">
+                    <div class="wow fadeInUp" data-wow-delay="0.1s">
+                        <h4 class="text-secondary mb-2">Follow Our YouTube Channel</h4>
+                        <a href="https://www.youtube.com/@namasteeruope" target="_blank" class="text-primary fs-5 fw-bold">
+                            <i class="fab fa-youtube me-2"></i>Namaste Europe
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Training End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-3 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-2">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-secondary mb-4">Contact Info</h4>
+                        <a href=""><i class="fa fa-map-marker-alt me-2"></i> 206A, Elante Mall Chandigarh, India</a>
+                        <a href=""><i class="fas fa-envelope me-2"></i> munishvohra@pec.it</a>
+                        <a href=""><i class="fas fa-phone me-2"></i> +91 8360220893</a>
+                        <a href="" class="mb-3"><i class="fas fa-print me-2"></i> 00393669010212</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-secondary mb-4">Opening Time</h4>
+                        <div class="mb-3">
+                            <h6 class="text-muted mb-0">Mon - Friday:</h6>
+                            <p class="text-white mb-0">10.00 am to 06.00 pm</p>
+                        </div>
+                        <div class="mb-3">
+                            <h6 class="text-muted mb-0">Satday:</h6>
+                            <p class="text-white mb-0">11.00 am to 03.00 pm</p>
+                        </div>
+                        <div class="mb-3">
+                            <h6 class="text-muted mb-0">Vacation:</h6>
+                            <p class="text-white mb-0">All Sunday is our vacation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-secondary mb-4">Quick Links</h4>
+                        <a href="index.html" class=""><i class="fas fa-angle-right me-2"></i> Home</a>
+                        <a href="about.html" class=""><i class="fas fa-angle-right me-2"></i> About</a>
+                        <a href="service.html" class=""><i class="fas fa-angle-right me-2"></i> Services</a>
+                        <a href="contact.html" class=""><i class="fas fa-angle-right me-2"></i> Contact</a>
+                        <a href="allrequirements.html" class=""><i class="fas fa-angle-right me-2"></i> All Requirements</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-secondary mb-4">Follow Us</h4>
+                        <a class="mb-2 d-flex align-items-center" href="https://www.facebook.com/share/1G4xz5vvBd/" target="_blank">
+                            <i class="fab fa-facebook-f me-2"></i> Facebook
+                        </a>
+                        <a class="mb-2 d-flex align-items-center" href="https://x.com/MunishVohra15?t=4TR0haF78YnMGFQTzQjSnQ&s=08" target="_blank">
+                            <i class="fab fa-twitter me-2"></i> Twitter
+                        </a>
+                        <a class="mb-2 d-flex align-items-center" href="https://www.instagram.com/NAMASTE_EUROPE143/" target="_blank">
+                            <i class="fab fa-instagram me-2"></i> Instagram
+                        </a>
+                        <a class="mb-2 d-flex align-items-center" href="https://wa.me/918360220893" target="_blank">
+                            <i class="fab fa-whatsapp me-2"></i> WhatsApp
+                        </a>
+                        <a class="mb-2 d-flex align-items-center" href="https://www.youtube.com/@namasteeruope" target="_blank">
+                            <i class="fab fa-youtube me-2"></i> YouTube
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4" style="background-color: #1a1a1a;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <span class="text-light">&copy; <span id="currentYear"></span> Namaste Europe. All rights reserved.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <span class="text-light">Created by : Kanhaiya Kumar</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!-- Theme Javascript -->
+    <script src="js/theme.js"></script>
+    </body>
+
+</html>
